@@ -21,6 +21,7 @@ P{
 body{
     background-color:wheat;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: x-large;
 border: 5px solid black;
 margin: 20px;
 padding: 20px;
@@ -30,15 +31,28 @@ text-align: left
 ol{
     list-style-position: inside;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     color: black;
     text-align:left
 }
 
 ul{
     list-style-position: inside;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
+    font-weight: normal;
     color: rgb(113, 111, 111);
     text-align: left;
 }
-  
+.footer{
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(153, 144, 144, 0.886);
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    font-weight: normal;
+}
   
